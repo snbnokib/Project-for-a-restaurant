@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.2)50%, rgba(0,0,0,0.2)50%), url(happy-epiphany-tasty-biscuits-copy-space.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109px;
+}
+
+
+.navbar{
+    width: 1120px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: auto;
+    height: 75px;
+    float: left;
+}
+.logo{
+    color: rgb(255, 166, 0);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: auto;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 50px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 17px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(255, 166, 0);
+}
+
+.contant{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: wheat;
+    position: relative;
+}
+
+.contant .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.contant h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    color: wheat;
+    margin-top: 9%;
+    letter-spacing: 5px;
+
+}
+
+.contant .cn{
+    width: 160px;
+    height: 40px;
+    background: wheat;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.contant .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3 ease;
+}
+
+.cn:hover{
+    background-color: rgb(255, 166, 0);
+}
+
+.contant span{
+    color: rgb(255, 166, 0);
+    font-size: 58px;
+    padding-left: 150px;
+}
+
+.formbox{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.formbox h1{
+    font-size: 35px;
+    padding-left: 52px;
+    margin-bottom: 50px;
+    color: wheat;
+    position: relative;
+    letter-spacing: -2px;
+}
+
+.formbox h1::after{
+    content: '';
+    width: 40px;
+    height: 3px;
+    border-radius: 3px;
+    background: wheat;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input-field{
+    background: transparent;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: gray;
+}
+
+form p{
+    text-align: left;
+    font-size: 13px;
+    color: rgb(211, 211, 211);
+}
+
+form p a{
+    text-decoration: none;
+    color: grey;
+}
+
+.btnfield{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnfield button{
+    flex-basis: 48%;
+    background: rgb(255, 166, 0);
+    color: black;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.btnfield button.disable{
+    background: wheat;
+    color: black;
+}
